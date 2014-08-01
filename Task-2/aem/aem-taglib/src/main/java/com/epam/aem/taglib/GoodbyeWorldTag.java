@@ -1,24 +1,36 @@
 package com.epam.aem.taglib;
 
-import com.squeakysand.jsp.tagext.EnhancedSimpleTagSupport;
+import com.cqblueprints.taglib.CqSimpleTagSupport;
 import com.squeakysand.jsp.tagext.annotations.JspTag;
 import com.squeakysand.jsp.tagext.annotations.JspTagAttribute;
+
+import com.epam.aem.services.GoodbyeWorldService;
 
 import java.io.IOException;
 
 import javax.servlet.jsp.JspException;
 
 /**
- * Friendly tag that says goodbye.
+ * Example JSP Custom Tag demonstrating three important concepts:
+ * 
+ * 1. use of the SqueakySand annotations for auto-generating the Tag Library Descriptor (.tld) file
+ * 
+ * 2. extending the CqSimpleTagSupport class from the CQ Blueprints library that provides many
+ *    useful methods to make writing JSP Custom Tags for the CQ platform easier for developers
+ * 
+ * 3. accessing an OSGI service from within a JSP Custom Tag using one of the methods inherited
+ *    from the CqSimpleTagSupport class
  */
 @JspTag
-public class GoodbyeWorldTag extends EnhancedSimpleTagSupport {
+public class GoodbyeWorldTag extends CqSimpleTagSupport {
 
     private String name;
 
     @Override
     public void doTag() throws JspException, IOException {
-        getJspWriter().write(String.format("Goodbye %s!", name));
+        GoodbyeWorldService service = getService(GoodbyeWorldService.class);
+        String message = service.getMessage(name);
+        getJspWriter().write(message);
     }
 
     public String getName() {

@@ -1,23 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:rep="internal"
-    jcr:mixinTypes="[mix:lockable,rep:AccessControllable,sling:Redirect]"
-    jcr:primaryType="sling:OrderedFolder"
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
+    jcr:mixinTypes="[rep:AccessControllable,rep:RepoAccessControllable]"
+    jcr:primaryType="rep:root"
     sling:resourceType="sling:redirect"
-    sling:target="/geohome">
-    <catalogs/>
-    <campaigns/>
-    <dam/>
-    <launches/>
-    <usergenerated/>
+    sling:target="/index.html">
+    <bin/>
+    <rep:repoPolicy/>
     <rep:policy/>
-    <geometrixx-media/>
-    <publications/>
-    <geometrixx-outdoors/>
-    <geometrixx-outdoors-mobile/>
-    <communities/>
-    <mac/>
-    <geometrixx/>
-    <geometrixx_mobile/>
-    <aem-training-task1/>
-    <aem-task2/>
+    <jcr:system/>
+    <var/>
+    <libs/>
+    <etc/>
+    <apps/>
+    <home/>
+    <tmp/>
+    <content/>
 </jcr:root>

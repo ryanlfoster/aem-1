@@ -16,9 +16,9 @@
     <name>${project.groupId} - ${project.artifactId}</name>
 
     <description>
-        A CQ package that contains all configuration information for the aem project.
+        A CQ package that contains all configuration information for the 'AEM Project' project.
 
-        The config information for all environments (dev, qa, production etc.) can all be colocated in this one module
+        The config information for all environments (dev, qa, production etc.) can all be co-located in this one module
         and can then be targeted at specific environments by using the runmodes functionality in CQ. See
         http://dev.day.com/content/kb/home/cq5/CQ5SystemAdministration/RunModeDependentConfigAndInstall.html for
         further information.

@@ -16,7 +16,7 @@
     <name>${project.groupId} - ${project.artifactId}</name>
 
     <description>
-        All of the CQ component and template definitions for the aem project.
+        All of the CQ component and template definitions for the 'AEM Project' project.
 
         During development, the files in this module should be sync'd to your CQ instance using the FileVault command
         line tool available with CQ. There is also a plugin for Eclipse called "vaultclipse" that can be used instead

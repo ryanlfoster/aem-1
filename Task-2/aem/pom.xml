@@ -12,7 +12,7 @@
     <name>${project.groupId} - ${project.artifactId}</name>
 
     <description>
-        Parent Maven POM for the "aem" project.
+        Parent Maven POM for the 'AEM Project' project.
     </description>
 
     <properties>
@@ -61,30 +61,30 @@
             <dependency>
                 <groupId>com.cqblueprints</groupId>
                 <artifactId>cqdependencies</artifactId>
-                <version>5.5.0</version>
+                <version>5.6.0</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
             <dependency>
                 <groupId>com.squeakysand.jcr</groupId>
                 <artifactId>squeakysand-jcr-taglib</artifactId>
-                <version>0.2.0</version>
+                <version>0.3.0</version>
                 <scope>provided</scope>
             </dependency>
             <dependency>
                 <groupId>com.squeakysand.jsp</groupId>
                 <artifactId>squeakysand-jsp</artifactId>
-                <version>0.3.0</version>
+                <version>0.4.0</version>
             </dependency>
             <dependency>
-                <groupId>com.squeakysand</groupId>
+                <groupId>com.squeakysand.osgi</groupId>
                 <artifactId>squeakysand-osgi</artifactId>
-                <version>0.2.0</version>
+                <version>0.4.0</version>
             </dependency>
             <dependency>
                 <groupId>com.squeakysand.sling</groupId>
                 <artifactId>squeakysand-sling-taglib</artifactId>
-                <version>0.2.0</version>
+                <version>0.3.0</version>
                 <scope>provided</scope>
             </dependency>
         </dependencies>
@@ -104,7 +104,7 @@
                 <plugin>
                     <groupId>com.squeakysand.jsp</groupId>
                     <artifactId>jsptld-maven-plugin</artifactId>
-                    <version>0.3.0</version>
+                    <version>0.4.0</version>
                 </plugin>
                 <plugin>
                     <groupId>net.sourceforge.maven-taglib</groupId>

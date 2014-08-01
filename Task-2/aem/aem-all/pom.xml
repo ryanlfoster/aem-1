@@ -16,7 +16,7 @@
     <name>${project.groupId} - ${project.artifactId}</name>
 
     <description>
-        Builds a CQ package containing all components of the aem project. Useful for making formal
+        Builds a CQ package containing all components of the 'AEM Project' project. Useful for making formal
         releases to QA and production environments for example.
     </description>
 
@@ -46,6 +46,12 @@
             <groupId>${project.groupId}</groupId>
             <artifactId>aem-services</artifactId>
             <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.cqblueprints.taglib</groupId>
+            <artifactId>cqblueprints-taglib-all</artifactId>
+            <version>5.5.1</version>
+            <type>zip</type>
         </dependency>
     </dependencies>
 
@@ -83,6 +89,11 @@
                                 <subPackage>
                                     <groupId>${project.groupId}</groupId>
                                     <artifactId>aem-view</artifactId>
+                                    <filter>true</filter>
+                                </subPackage>
+                                <subPackage>
+                                    <groupId>com.cqblueprints.taglib</groupId>
+                                    <artifactId>cqblueprints-taglib-all</artifactId>
                                     <filter>true</filter>
                                 </subPackage>
                             </subPackages>
