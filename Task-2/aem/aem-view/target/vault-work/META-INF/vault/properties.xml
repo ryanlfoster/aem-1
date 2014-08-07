@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>com.epam - aem-view</comment>
+<entry key="createdBy">zetsubou_0</entry>
+<entry key="name">aem-view</entry>
+<entry key="created">2014-08-06T15:13:20.128+0300</entry>
+<entry key="groupId">com.epam</entry>
+<entry key="version">1.0.0-SNAPSHOT</entry>
+<entry key="requiresRoot">false</entry>
+<entry key="group">com.epam</entry>
+<entry key="description">All of the CQ component and template definitions for the 'AEM training. Task 2' project.
+
+        During development, the files in this module should be sync'd to your CQ instance using the FileVault command
+        line tool available with CQ. There is also a plugin for Eclipse called "vaultclipse" that can be used instead
+        of the command line tool.
+
+        It is recommended that this module not contain any Java code and instead Java code should be placed in either
+        the aem-taglib module or the aem-services module as appropriate.</entry>
+<entry key="artifactId">aem-view</entry>
+<entry key="path">/etc/packages/com.epam/aem-view.zip</entry>
+</properties>

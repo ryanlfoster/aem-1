@@ -16,7 +16,7 @@
     <name>${project.groupId} - ${project.artifactId}</name>
 
     <description>
-        Builds a CQ package containing all components of the 'AEM Project' project. Useful for making formal
+        Builds a CQ package containing all components of the 'AEM training. Task 2' project. Useful for making formal
         releases to QA and production environments for example.
     </description>
 

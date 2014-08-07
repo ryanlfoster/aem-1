@@ -16,7 +16,7 @@
     <name>${project.groupId} - ${project.artifactId}</name>
 
     <description>
-        An OSGi Bundle containing all of the backend CQ service implementations for the 'AEM Project' project.
+        An OSGi Bundle containing all of the backend CQ service implementations for the 'AEM training. Task 2' project.
 
         During development, this bundle can be automatically deployed to your CQ instance by activating the
         "auto-deploy" profile and running the Maven "install" lifecycle phase (e.g. "mvn -Pauto-deploy install"). This

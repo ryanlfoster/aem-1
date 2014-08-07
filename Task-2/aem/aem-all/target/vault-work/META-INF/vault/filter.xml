@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/aem/install/aem-services-1.0.0-SNAPSHOT.jar" />
+    <filter root="/apps/aem/install/aem-taglib-1.0.0-SNAPSHOT.jar" />
+    <filter root="/etc/packages/com.epam/aem-config-1.0.0-SNAPSHOT.zip" />
+    <filter root="/etc/packages/com.epam/aem-view-1.0.0-SNAPSHOT.zip" />
+    <filter root="/etc/packages/com.cqblueprints.taglib/cqblueprints-taglib-all-5.5.1.zip" />
+</workspaceFilter>
