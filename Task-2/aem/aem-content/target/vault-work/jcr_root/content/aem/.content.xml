@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
+        cq:lastModified="{Date}2014-06-29T23:34:07.706+03:00"
+        cq:lastModifiedBy="admin"
         cq:template="/apps/aem/templates/main"
         jcr:primaryType="cq:PageContent"
-        jcr:title="AEM training. Task 2 Site"
+        jcr:title="AEM training task2"
         sling:resourceType="/apps/aem/components/pages/main-page"/>
+    <en/>
 </jcr:root>

@@ -1,14 +1,111 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
-    jcr:primaryType="cq:Dialog"
-    xtype="dialog">
+          jcr:primaryType="cq:Dialog"
+          xtype="dialog">
     <items
-        jcr:primaryType="cq:Widget"
-        xtype="tabpanel">
+            jcr:primaryType="cq:Widget"
+            xtype="tabpanel">
         <items jcr:primaryType="cq:WidgetCollection">
-            <tab1
-                jcr:primaryType="cq:Panel"
-                title="Tab 1"/>
+            <News
+                    jcr:primaryType="cq:Panel"
+                    title="News">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <firstLvl
+                            jcr:primaryType="cq:Widget"
+                            fieldLabel="First level"
+                            name="./firstLevelNews"
+                            xtype="pathfield"/>
+                    <secondLvl
+                            jcr:primaryType="cq:Widget"
+                            fieldLabel="Second level"
+                            name="./secondLevelNews"
+                            xtype="multifield">
+                        <fieldConfig
+                                jcr:primaryType="cq:Widget"
+                                xtype="pathfield"/>
+                    </secondLvl>
+                </items>
+            </News>
+            <Events
+                    jcr:primaryType="cq:Panel"
+                    title="Events">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <firstLvl
+                            jcr:primaryType="cq:Widget"
+                            fieldLabel="First level"
+                            name="./firstLevelEvents"
+                            xtype="pathfield"/>
+                    <secondLvl
+                            jcr:primaryType="cq:Widget"
+                            fieldLabel="Second level"
+                            name="./secondLevelEvents"
+                            xtype="multifield">
+                        <fieldConfig
+                                jcr:primaryType="cq:Widget"
+                                xtype="pathfield"/>
+                    </secondLvl>
+                </items>
+            </Events>
+            <Communities
+                    jcr:primaryType="cq:Panel"
+                    title="Communities">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <firstLvl
+                            jcr:primaryType="cq:Widget"
+                            fieldLabel="First level"
+                            name="./firstLevelCommunities"
+                            xtype="pathfield"/>
+                    <secondLvl
+                            jcr:primaryType="cq:Widget"
+                            fieldLabel="Second level"
+                            name="./secondLevelCommunities"
+                            xtype="multifield">
+                        <fieldConfig
+                                jcr:primaryType="cq:Widget"
+                                xtype="pathfield"/>
+                    </secondLvl>
+                </items>
+            </Communities>
+            <Toolkit
+                    jcr:primaryType="cq:Panel"
+                    title="Toolkit">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <firstLvl
+                            jcr:primaryType="cq:Widget"
+                            fieldLabel="First level"
+                            name="./firstLevelToolkit"
+                            xtype="pathfield"/>
+                    <secondLvl
+                            jcr:primaryType="cq:Widget"
+                            fieldLabel="Second level"
+                            name="./secondLevelToolkit"
+                            xtype="multifield">
+                        <fieldConfig
+                                jcr:primaryType="cq:Widget"
+                                xtype="pathfield"/>
+                    </secondLvl>
+                </items>
+            </Toolkit>
+            <Media
+                    jcr:primaryType="cq:Panel"
+                    title="Media">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <firstLvl
+                            jcr:primaryType="cq:Widget"
+                            fieldLabel="First level"
+                            name="./firstLevelMedia"
+                            xtype="pathfield"/>
+                    <secondLvl
+                            jcr:primaryType="cq:Widget"
+                            fieldLabel="Second level"
+                            name="./secondLevelMedia"
+                            xtype="multifield">
+                        <fieldConfig
+                                jcr:primaryType="cq:Widget"
+                                xtype="pathfield"/>
+                    </secondLvl>
+                </items>
+            </Media>
         </items>
     </items>
 </jcr:root>

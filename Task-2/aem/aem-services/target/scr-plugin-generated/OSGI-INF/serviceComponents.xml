@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?><components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.0.0">
-    <scr:component enabled="true" immediate="true" name="com.epam.aem.services.GoodbyeWorldService">
-        <implementation class="com.epam.aem.services.GoodbyeWorldService"/>
+    <scr:component enabled="true" immediate="true" name="com.epam.aem.services.MenuService">
+        <implementation class="com.epam.aem.services.MenuService"/>
         <service servicefactory="false">
-            <provide interface="com.epam.aem.services.GoodbyeWorldService"/>
+            <provide interface="com.epam.aem.services.MenuService"/>
         </service>
-        <property name="service.vendor" type="String" value="CQ Blueprints"/>
-        <property name="service.description" type="String" value="Provides a friendly farewell."/>
-        <property name="service.pid" value="com.epam.aem.services.GoodbyeWorldService"/>
+        <property name="service.vendor" type="String" value=""/>
+        <property name="service.description" type="String" value="Provides repository session"/>
+        <property name="service.pid" value="com.epam.aem.services.MenuService"/>
+    </scr:component>
+    <scr:component enabled="true" immediate="true" name="com.epam.aem.services.SessionServise">
+        <implementation class="com.epam.aem.services.SessionServise"/>
+        <service servicefactory="false">
+            <provide interface="com.epam.aem.services.SessionServise"/>
+        </service>
+        <property name="service.vendor" type="String" value=""/>
+        <property name="service.description" type="String" value="Provides repository session"/>
+        <property name="service.pid" value="com.epam.aem.services.SessionServise"/>
     </scr:component>
 </components>

@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1407327204872
+Bnd-LastModified: 1408480669532
 Build-Jdk: 1.7.0_55
 Built-By: zetsubou_0
 Bundle-Activator: com.epam.aem.services.osgi.Activator

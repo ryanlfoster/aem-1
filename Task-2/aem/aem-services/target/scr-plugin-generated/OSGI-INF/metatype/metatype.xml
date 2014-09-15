@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><metatype:MetaData xmlns:metatype="http://www.osgi.org/xmlns/metatype/v1.0.0" localization="OSGI-INF/metatype/metatype">
-    <OCD id="com.epam.aem.services.GoodbyeWorldService" name="%com.epam.aem.services.GoodbyeWorldService.name" description="%com.epam.aem.services.GoodbyeWorldService.description"/>
-    <Designate pid="com.epam.aem.services.GoodbyeWorldService">
-        <Object ocdref="com.epam.aem.services.GoodbyeWorldService"/>
+    <OCD id="com.epam.aem.services.MenuService" name="%com.epam.aem.services.MenuService.name" description="%com.epam.aem.services.MenuService.description"/>
+    <OCD id="com.epam.aem.services.SessionServise" name="%com.epam.aem.services.SessionServise.name" description="%com.epam.aem.services.SessionServise.description"/>
+    <Designate pid="com.epam.aem.services.MenuService">
+        <Object ocdref="com.epam.aem.services.MenuService"/>
+    </Designate>
+    <Designate pid="com.epam.aem.services.SessionServise">
+        <Object ocdref="com.epam.aem.services.SessionServise"/>
     </Designate>
 </metatype:MetaData>
